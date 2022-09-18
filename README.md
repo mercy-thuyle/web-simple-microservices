@@ -1,7 +1,7 @@
 # web-simple-microservices
 
 URL: web-thuyldx.com
-PORT: 9000
+PORT: 8000
 
 ```sh
 sudo apt update && sudo apt upgrade -y
