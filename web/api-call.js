@@ -9,7 +9,7 @@ function updateUIRandom(content) {
     document.querySelector('#message-random').innerHTML = content;
 }
 
-fetch("thuyldx-internal.unicloud.ai")
+fetch("https://thuyldx-api.unicloud.ai")
 	.then((response) => response.json())
 	.then((data) => {
 		updateUI(data.message);
